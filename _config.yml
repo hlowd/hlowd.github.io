@@ -6,7 +6,7 @@ highlighter: null
 permalink: /:title
 
 url: http://hlowd.github.io/
-baseurl: http://hlowd.github.io/
+baseurl:
 sass:
   sass_dir: public/css
   style: :compressed
