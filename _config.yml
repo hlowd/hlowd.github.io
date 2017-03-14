@@ -5,8 +5,8 @@ description:
 highlighter: null
 permalink: /:title
 
-url:
-baseurl:hlowd.git.io
+url:hlowd.git.io
+baseurl:
 sass:
   sass_dir: public/css
   style: :compressed
