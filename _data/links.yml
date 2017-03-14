@@ -1,5 +1,11 @@
 - url: /
-  title: Home
-
+  title: 首页
+  
+- url: /brume/article
+  title: 文章
+  
+- url: /brume/photo
+  title: 照片
+  
 - url: /brume/about
-  title: About
+  title: 关于
