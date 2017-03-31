@@ -12,16 +12,21 @@ $amber-accent-color: #ff7e00;
 $avocado-accent-color: #568203;
 
 
-
-
-.rowstyle {
-  font-size: 1.125rem;
-  line-height: 28px;
+.rowtitle {
+  font-size: 2rem;
   padding: 0px 5px;
   border: 1px solid #ddd;
   background-color: #f8f8f8;
   border-radius: 3px;
   white-space: nowrap;
+}
+
+.rowrow {
+  font-size: 1.8rem;
+  line-height: 22px;
+  padding: 0px 5px;
+  border-bottom: 1px dashed #ddd;
+  background-color: #f8f8f8;
 }
 
 hr {
