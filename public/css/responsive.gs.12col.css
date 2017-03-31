@@ -1,9 +1,3 @@
-/*	12 COLUMN : RESPONSIVE GRID SYSTEM
-	DEVELOPER : DENIS LEBLANC
-	URL : http://responsive.gs
-	VERSION : 3.0
-	LICENSE : GPL & MIT */
-
 
 /* 	SET ALL ELEMENTS TO BOX-SIZING : BORDER-BOX */
 * { 
@@ -16,39 +10,6 @@
 		More info here:  https://github.com/Schepp/box-sizing-polyfill */
 }
 
-
-/*	MAIN CONTAINER 
-	Set the width to whatever you want the width of your site to be. */
-.container { 
-	max-width: 100%;
-	margin: 0 auto; 
-}
-
-
-
-/*	SELF CLEARING FLOATS - CLEARFIX METHOD */
-.container:after,
-.row:after, 
-.col:after, 
-.clr:after, 
-.group:after { 
-	content: ""; 
-	display: table; 
-	clear: both; 
-}
-
-/* 	DEFAULT ROW STYLES 
-	Set bottom padding according to preference */
-.row { padding-bottom: 0em;
-}
-			
-								  
-/* DEFAULT COLUMN STYLES */
-.col { 
-	display: block;
-	float: left;
-	width: 100%;
-}
 
 @media ( min-width : 768px ) {
 	
