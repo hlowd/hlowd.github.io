@@ -88,6 +88,7 @@ dd {
 .top-navbar {
   margin-bottom: 40px;
   height: 110px;
+  text-align: left;
 
   a {
     display: inline-block;
@@ -165,7 +166,7 @@ dl,
 }
 
 /*============================================================================*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .top-navbar {
     height: 35px;
     text-align: center;
