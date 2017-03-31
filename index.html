@@ -1,16 +1,15 @@
 ---
 layout: default
 title: Home
-tags: hhh
 ---
 <div class="row">
-  <div class="col-md-3">.col-md-1</div>
-  <div class="col-md-9">
+  <div class="col-md-3 col-sm-4">算法相关</div>
+  <div class="col-md-9 col-sm-12">
     {% for post in site.posts %}
     <div class="row">
-      <div class="col-md-10">{{ post.title }}</div>
-      <div class="col-md-2">{{ post.date|date:"%Y-%m-%d" }}</div>
-    
+      <div class="col-md-10 col-sm-10">{{ post.title }}</div>
+      <div class="col-md-2 col-sm-2">{{ post.date|date:"%Y-%m-%d" }}</div>
+   
     
     </div>
   {% endfor %}
