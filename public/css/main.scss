@@ -12,10 +12,6 @@ $amber-accent-color: #ff7e00;
 $avocado-accent-color: #568203;
 
 
-a {
-  text-decoration: none;
-}
-
 hr {
   border : 0;
   height: 25px;
@@ -61,29 +57,7 @@ dd {
   width: 70%;
 }
 
-footer {
-  font-size: .8rem;
-  text-align: center;
-}
 
-/*============================================================================*/
-.azul { a { color: $azul-accent-color;
-    &:hover { color: darken($azul-accent-color, 20%);
-}}}
-
-.ruby { a { color: $ruby-accent-color;
-    &:hover { color: darken($ruby-accent-color, 20%);
-}}}
-
-.amber { a { color: $amber-accent-color;
-    &:hover { color: darken($amber-accent-color, 20%);
-}}}
-
-.avocado { a { color: $avocado-accent-color;
-    &:hover { color: darken($avocado-accent-color, 20%);
-}}}
-
-/*----------------------------------------------------------------------------*/
 
 .highlight {
   padding: 30px;
@@ -191,7 +165,7 @@ dl,
 }
 
 /*============================================================================*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 970px) {
   .top-navbar {
     height: 35px;
     text-align: center;
