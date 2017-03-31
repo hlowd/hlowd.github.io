@@ -6,8 +6,8 @@ title: Home
   <div class="col-md-3 col-sm-4">算法相关</div>
   <div class="col-md-9 col-sm-12">
     {% for post in site.posts %}
-    <div class="row rowstyle">
-      <div class="col-md-9 col-sm-12 center">
+    <div class="row rowstyle left">
+      <div class="col-md-9 col-sm-12 ">
         <a href = "{{ post.url }}">{{ post.title }}</a></div>
       <div class="col-md-3 hidden-sm hidden-xs">{{ post.date|date:"%Y-%m-%d" }}</div>
    
