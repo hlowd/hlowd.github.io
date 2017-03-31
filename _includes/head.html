@@ -1,6 +1,6 @@
 <!-- meta information -->
 <meta charset="utf-8">
-<meta name="description" {% if page.title == "Home" %}
+<meta name="description" {% if page.title == "home" %}
       content="{{ site.description }}" {% else %}
       content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" {% endif %}>
 <meta name="author" content="{{ site.author }}">
@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
 <!-- title -->
-<title>{{ page.title }} &middot; {{ site.data.brume.name }}</title>
+<title>{{ page.title }} &middot; {{ site.data.zf.name }}</title>
 
 <!-- icons -->
 <link rel="shortcut icon" href="{{site.baseurl}}/public/images/favicon.ico" />
@@ -19,8 +19,15 @@
 <link rel="stylesheet" href="{{site.baseurl}}/public/css/animate.min.css">
 <link rel="stylesheet" href="{{site.baseurl}}/public/css/main.css">
 
-<!-- Google fonts -->
-<link rel="stylesheet" href="{{site.baseurl}}/public/css/googlefonts.css">
+<!-- Bootstrap -->
+    <link href="{{site.baseurl}}/public/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 {% if site.paginate %}
 <!-- font Awesome -->
