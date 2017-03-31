@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
   <head>
     {% include head.html %} 
   </head>
@@ -10,18 +11,16 @@
      </div>
 	 <div class="container">
 		<header class= "row" >
-			<div class="col-md-4 col-sm-6">
+			<div class="col-md-4 col-sm-12 col-xs-12">
 				<div class ="center"><img src= "{{site.baseurl}}/public/images/logo.png"/></div>
 			</div>
 			
-			<div class="col-md-8 col-sm-12"> {% include navigation.html %}</div>
+			<div class="col-md-8 col-sm-12 col-xs-12"> {% include navigation.html %}</div>
 		</header>
 	 </div>	
        
 	<div class="container">
-		<div class= "row" >
-			<div class="col-md-12">{{ content }}</div>
-	    </div>
+		{{ content }}
 	</div>
       <footer class="container-fluid">
 		<div class="row">
