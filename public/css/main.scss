@@ -106,7 +106,7 @@ dd {
 .top-navbar {
   margin-bottom: 40px;
   height: 110px;
-  text-align: left;
+  text-align: center;
 
   a {
     display: inline-block;
@@ -184,7 +184,7 @@ dl,
 }
 
 /*============================================================================*/
-@media screen and (max-width: 750px) {
+@media screen and (max-width: @screen-sm-max) {
   .top-navbar {
     height: 35px;
     text-align: center;
