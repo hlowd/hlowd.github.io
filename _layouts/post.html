@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
- <div class ="row rowrow wxc" >
-    
-    <div class="col-md-12" >
-     <h3>{{ post.title }}</h3>
-     
-     {{ content }}</div>
 
+ <div class ="row rowrow wxc" >
+    <h4>{{ post.title }}</h4>
+    <hr/>
+    <div>{{ post.data|data:"%Y-%m-%d" }}</div>
+    <br/>
+    <div class="col-md-12" > {{ content }}</div>
 </div>
