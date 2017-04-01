@@ -5,13 +5,13 @@ title: Home
 <div class="row">
   <div class="col-md-3 col-sm-12 col-xs-12 rowtitle">算法相关</div>
   <div class="col-md-9 col-sm-12 col-xs-12 rowtitle">
-    {%- for post in site.posts -%}
+    {% for post in site.posts %}
     <div class="row rowrow">
       <div class="col-md-9 col-sm-12 col-xs-12 left"></div>
       <div class="col-md-3 hidden-sm hidden-xs">
       {{ post.date|date:"%Y-%m-%d" }}
       </div>
    </div>
-  {%- endfor -%}
+  {% endfor %}
   </div>
 </div>
