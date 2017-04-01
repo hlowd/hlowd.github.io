@@ -3,9 +3,9 @@ layout: default
 ---
 
  <div class ="row rowrow wxc" >
-    <h4>{{ post.title }}</h4>
+    <h4>{{ page.title }}</h4>
     <hr/>
-    <div>{{ post.data|data:"%Y-%m-%d" }}</div>
+    <div>{{ data|data:"%Y-%m-%d" }}</div>
     <br/>
     <div class="col-md-12" > {{ content }}</div>
 </div>
