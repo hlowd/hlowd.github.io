@@ -51,6 +51,7 @@ p code {
 table {
   border-collapse: collapse;
   border: 1px solid $contrast-color;
+  margin:0 auto;
 
   td, th {
     border: 1px solid $contrast-color;
