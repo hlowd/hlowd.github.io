@@ -1,11 +1,11 @@
-- name: zf
-  url: 1
-  url: 2
-  url: 3
-  url: 4
-  url: 5
-  url: 6
-  url: 7
+name: zf
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
   
 
 - name: Parker Moore
