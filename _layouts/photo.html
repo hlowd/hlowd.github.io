@@ -4,7 +4,14 @@ layout: default
   
   <div class ="row rowtitle" >
     
-    <div class="col-md-12" > {{ content }}</div>
+    <div class="col-md-12" >
+      {% for member in site.data.photo.zf %}
+     <li>
+        <a href="https://github.com/{{zf.url }}">
+     {{ member.name }}
+    </a>
+  </li>
+{% endfor %}</div>
 
   </div>
  
